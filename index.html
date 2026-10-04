@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erreur 404</title>
+<style>
+  *{box-sizing:border-box}
+  body{
+    margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+    font-family:Arial,Helvetica,sans-serif; background:#f6f7f9; color:#202124;
+  }
+  .box{
+    width:min(650px,90%); background:white; padding:48px 35px; border-radius:18px;
+    box-shadow:0 10px 35px rgba(0,0,0,.12); text-align:center;
+  }
+  .error{font-size:86px;font-weight:800;color:#d93025;margin:0}
+  h1{font-size:28px;margin:10px 0 14px}
+  p{font-size:17px;line-height:1.6;color:#5f6368}
+  .warning{
+    margin-top:25px;padding:18px;border-radius:12px;background:#fff3cd;
+    border:1px solid #ffe69c;color:#664d03;font-weight:700;
+  }
+  .warning span{font-size:24px}
+  small{display:block;margin-top:22px;color:#9aa0a6}
+</style>
+</head>
+<body>
+  <main class="box">
+    <div class="error">404</div>
+    <h1>Page introuvable</h1>
+    <p> La page que vous recherchez n'existe pas ou a été déplacée.</p>
+
+    <div class="warning">
+      <span>⚠️⚠️⚠️</span><br><br>
+      ⚠️ ALERTE DE SÉCURITÉ ⚠️
+Une activité inhabituelle a été détectée sur votre appareil.
+Vos coordonnées ont été enregistrées.
+Ne fermez pas cette page.<br>
+      
+    </div>
+
+    <small>Erreur système — ID : 404</small>
+  </main>
+
+<script>
+  // Petit prank : aucun accès à vos coordonnées n'est effectué.
+  console.log("PRANK 😄 — aucune donnée personnelle n'a été récupérée.");
+</script>
+</body>
+</html>
